@@ -2,7 +2,7 @@ let string = "ABCDE";
 let num = 0;
 let endlessString = "";
 let start = 13;
-let end = 17;
+let end = 16;
 
 while (num < 20) {
   endlessString += string;
@@ -10,4 +10,4 @@ while (num < 20) {
   console.log(endlessString);
 }
 
-console.log(endlessString.substring(start, end));
+console.log(endlessString.substring(start, end + 1));
